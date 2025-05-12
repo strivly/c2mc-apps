@@ -1,0 +1,12 @@
+apiVersion: v2
+name: c3e-chart-cert-manager
+description: A Helm chart to deploy cert-manager
+type: application
+version: 0.1.0
+appVersion: v1.17.2
+
+dependencies:
+  - name: cert-manager
+    version: v1.17.2
+    repository: https://charts.jetstack.io
+    alias: cert-manager
