@@ -1,0 +1,2 @@
+# Ignore any charts/ folder at any depth (e.g., bootstrap/*/charts/)
+**/charts/
